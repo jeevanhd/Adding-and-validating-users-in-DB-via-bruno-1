@@ -1,4 +1,4 @@
-Imagine you are developing an online marketplace where buyers and sellers need to create an account to participate. The platform requires new users to register by providing their username, email, and password. To ensure security, the password must be hashed before storing it in the database. 
+Imagine you are developing an online marketplace where buyers and sellers need to create an account to participate. The platform requires new users to register by providing their username, email, and password. To ensure security, the password must be hashed before storing it in the database.
 
 - Use mongoose to connect to database.
 - Write an backend endpoint that will get the username, mail and password.
@@ -7,7 +7,6 @@ Imagine you are developing an online marketplace where buyers and sellers need t
 - Use bcrypt package to hash the password.
 - Save the data in mongodb.
 - send res success.
-
 
 # **How to Fork and Set Up Your Repository**
 
@@ -24,20 +23,27 @@ Imagine you are developing an online marketplace where buyers and sellers need t
 ## **2. Clone the Repository to Your Personal GitHub**
 
 - After forking, you can download the project or push it directly to your personal GitHub repository:
+
   - **Option 1: Download and Push**
+
     1. Download the repository files from StackBlitz.
     2. Open your terminal/command prompt, navigate to the project folder, and run:
+
        ```bash
        git init
        git remote add origin <your_github_repo_url>
        ```
+
        Replace `<your_github_repo_url>` with your personal GitHub repository URL.
+
     3. Commit and push the files to your GitHub repository:
+
        ```bash
        git add .
        git commit -m "Completed the assignment"
        git push -u origin main
        ```
+
   - **Option 2: Push Directly**
     1. Use the **Push to GitHub** option in StackBlitz to directly connect and push the repository to your GitHub account.
 
